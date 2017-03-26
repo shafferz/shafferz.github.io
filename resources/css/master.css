@@ -8,6 +8,13 @@ h1 {
 h3 {
   color: rgba(200, 200, 200, 0.8);
 }
-#page-link {
+#page-link:link, #page-link:visited {
+  text-decoration: none;
+  background-color: inherit;
+  color: rgba(200, 200, 200, 0.8);
+}
+#page-link:hover, #page-link:active {
+  text-decoration: none;
+  background-color: rgba(100, 100, 100, 0.3);
   color: rgba(200, 200, 200, 0.8);
 }
