@@ -1,5 +1,6 @@
 /* master.css to control general style of sheets*/
 body {
+  font-family: "Ariel Black", Helvetica, sans-serif;
   background-color: rgb(78, 89, 96);
   background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
 }
