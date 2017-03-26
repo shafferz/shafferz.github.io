@@ -1,8 +1,4 @@
 /* master.css to control general style of sheets*/
-@font-face {
-  font-family: "Pakenham";
-  src: url('resources/fonts/pakenham_rg.ttf');
-}
 body {
   font-family: "Pakenham", Helvetica, serif;
   background-color: rgb(78, 89, 96);
