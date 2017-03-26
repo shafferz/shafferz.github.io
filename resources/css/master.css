@@ -1,6 +1,7 @@
 /* master.css to control general style of sheets*/
 body {
   background-color: rgb(78, 89, 96);
+}
 h1 {
   color: rgba(200, 200, 200, 0.8);
 }
