@@ -4,7 +4,7 @@ body {
   /*background-color: -webkit-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
   background-color: -o-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
   background-color: -moz-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));*/
-  background: linear-gradient(to bottom, red, yellow);
+  background: linear-gradient(-0deg, red, yellow);
 h1 {
   color: rgba(200, 200, 200, 0.8);
 }
