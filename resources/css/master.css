@@ -1,7 +1,7 @@
 /* master.css to control general style of sheets*/
 @font-face {
   font-family: 'Cabin-Regular';
-  src: url('fonts/Cabin-Regular-TTF.ttf', format('truetype'));
+  src: local('fonts/Cabin-Regular-TTF.ttf', format('truetype'));
   font-weight: 400;
   font-style: normal;
 }
