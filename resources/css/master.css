@@ -2,7 +2,7 @@
 body {
   font-family: Pakenham, sans-serif;
   background-color: rgb(78, 89, 96);
-  background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
+  background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.5), fixed);
 }
 h1 {
   color: rgba(200, 200, 200, 0.8);
@@ -30,5 +30,5 @@ h3 {
 
 @font-face {
   font-family: Pakenham;
-  src: url('fonts/pakenham_rg.ttf', format('truetype'));
+  src: local('/fonts/pakenham_rg.ttf', format('truetype'));
 }
