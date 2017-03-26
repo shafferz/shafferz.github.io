@@ -1,6 +1,10 @@
 /* master.css to control general style of sheets*/
+@font-face {
+  font-family: "Pakenham";
+  src: url('resources/fonts/pakenham_rg.ttf');
+}
 body {
-  font-family: "Ariel Black", Helvetica, serif;
+  font-family: "Pakenham", Helvetica, serif;
   background-color: rgb(78, 89, 96);
   background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
 }
