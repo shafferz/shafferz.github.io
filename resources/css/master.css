@@ -3,8 +3,8 @@ body {
   background-color: rgb(78, 89, 96);
   /*background-color: -webkit-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
   background-color: -o-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
-  background-color: -moz-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
-  background-color: linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));*/
+  background-color: -moz-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));*/
+  background-color: linear-gradient(to bottom, rgb(78, 89, 96), rgb(0, 0, 0));
 }
 h1 {
   color: rgba(200, 200, 200, 0.8);
