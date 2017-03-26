@@ -1,7 +1,7 @@
 /* master.css to control general style of sheets*/
 body {
   background-color: rgb(78, 89, 96);
-  background-image: linear-gradient(90deg, rgb(78, 89, 96), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
 }
 h1 {
   color: rgba(200, 200, 200, 0.8);
