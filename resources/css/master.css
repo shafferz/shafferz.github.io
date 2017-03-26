@@ -11,8 +11,10 @@ h3 {
 #page-link:link, #page-link:visited {
   text-decoration: none;
   background-color: inherit;
-  padding: inherit;
+  padding: 50px 150px;
+  text-align: center;
   color: rgba(200, 200, 200, 0.8);
+  display: inline-block;
 }
 #page-link:hover, #page-link:active {
   text-decoration: none;
