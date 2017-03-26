@@ -1,6 +1,6 @@
 /* master.css to control general style of sheets*/
 body {
-  font-family: "Pakenham", Helvetica, serif;
+  font-family: Pakenham, serif;
   background-color: rgb(78, 89, 96);
   background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
 }
@@ -26,4 +26,9 @@ h3 {
   background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));*/
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
   color: rgba(200, 200, 200, 0.8);
+}
+
+@font-face {
+  font-family: "Pakenham";
+  src: url('fonts/pakenham_rg.ttf', format('truetype'));
 }
