@@ -1,10 +1,10 @@
 /* master.css to control general style of sheets*/
 body {
   background-color: rgb(78, 89, 96);
-  background-color: -webkit-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
+  /*background-color: -webkit-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
   background-color: -o-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
   background-color: -moz-linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
-  background-color: linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));
+  background-color: linear-gradient(rgb(78, 89, 96), rgb(0, 0, 0));*/
 }
 h1 {
   color: rgba(200, 200, 200, 0.8);
@@ -23,9 +23,9 @@ h3 {
 #page-link:hover, #page-link:active {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.3);
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+  /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
   background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
-  background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));*/
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
   color: rgba(200, 200, 200, 0.8);
 }
