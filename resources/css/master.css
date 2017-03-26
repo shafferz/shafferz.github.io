@@ -1,12 +1,12 @@
 /* master.css to control general style of sheets*/
 @font-face {
-  font-family: 'Pakenham';
-  src: url('fonts/pakenham_rg.ttf', format('truetype'));
+  font-family: 'Cabin-Regular';
+  src: url('fonts/Cabin-Regular-TTF.ttf', format('truetype'));
   font-weight: 400;
   font-style: normal;
 }
 body {
-  font-family: "Pakenham", Pakenham, 'Pakenham', sans-serif;
+  font-family: "Cabin-Regular", Cabin-Regular, 'Cabin-Regular', sans-serif;
   background-color: rgb(78, 89, 96);
   background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
 }
