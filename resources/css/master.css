@@ -26,8 +26,12 @@
 html, body {
   /*font-family: "Cabin-Regular", Cabin-Regular, 'Cabin-Regular', sans-serif;*/
   font-family: "Cabin-Regular", serif;
-  background-color: rgb(78, 89, 96);
-  background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
+  height: 100%;
+  background: rgb(78, 89, 96); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgb(78, 89, 96), rgba(0, 0, 0, 0.8)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(78, 89, 96), rgba(0, 0, 0, 0.8)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(78, 89, 96), rgba(0, 0, 0, 0.8)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(78, 89, 96), rgba(0, 0, 0, 0.8)); /* Standard syntax */
 }
 h1 {
   color: rgba(200, 200, 200, 0.8);
@@ -45,7 +49,7 @@ h3 {
 }
 #page-link:hover, #page-link:active {
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
   /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
   background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
   background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));*/
