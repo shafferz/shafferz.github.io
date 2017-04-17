@@ -46,5 +46,7 @@ h1 {
 }
 
 .logo {
-  align-items: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
