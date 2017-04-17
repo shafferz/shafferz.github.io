@@ -1,0 +1,46 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@font-face {
+  font-family: 'Cabin-Regular';
+  src: url(fonts/Cabin-Regular-TTF.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+ font-family: 'Cabin-Regular', sans-serif;
+ background-color: SteelBlue;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1 {
+  color: DarkCyan;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.evenSect {
+  background-color: LightSteelBlue;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}

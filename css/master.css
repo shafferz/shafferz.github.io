@@ -1,0 +1,35 @@
+/* master.css to control general style of sheets*/
+@font-face {
+  font-family: 'Cabin-Regular';
+  src: local('fonts/Cabin-Regular-TTF.ttf', format('truetype'));
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Cabin-Regular", Cabin-Regular, 'Cabin-Regular', sans-serif;
+  background-color: rgb(78, 89, 96);
+  background-image: linear-gradient(to bottom, rgb(78, 89, 96), rgba(0, 0, 0, 0.3), fixed);
+}
+h1, h3 {
+  color: SlateGray;
+  color: rgba(200, 200, 200, 0.8);
+}
+
+#page-link:link, #page-link:visited {
+  text-decoration: none;
+  background-color: inherit;
+  padding: 30px 200px;
+  text-align: center;
+  color: SlateGray;
+  color: rgba(200, 200, 200, 0.8);
+  display: inline-block;
+}
+#page-link:hover, #page-link:active {
+  text-decoration: none;
+  background-color: SlateGray;
+  background-color: rgba(255, 255, 255, 0.3);
+  /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));*/
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+}
