@@ -44,3 +44,7 @@ h1 {
   margin: 0 auto;
   padding: 0;
 }
+
+.logo {
+  align-items: center;
+}
