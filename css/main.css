@@ -28,6 +28,8 @@ body {
  font-family: 'Cabin-Regular', sans-serif;
  margin: 0;
  background-repeat: no-repeat;
+ background: SteelBlue;
+ background: linear-gradient(0deg, rgb(29,53,73), SteelBlue);
  background: linear-gradient(0, rgb(29,53,73), SteelBlue);
  background-attachment: fixed;
 }
