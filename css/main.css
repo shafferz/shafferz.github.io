@@ -111,6 +111,12 @@ a {
   width: auto;
 }
 
+.list {
+  text-align: center;
+  list-style-type: none;
+  width: auto;
+}
+
 .medias_container {
   display: flex;
   margin: 0 auto;
